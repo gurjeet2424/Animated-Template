@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Animated Template</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light" style = background-color:rgba(247,247,247,255)>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src = "flag.png" width = 70px height = 40px alt = "oops! No Image">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">German Language</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Carousel-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Container Fluid-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h3 class = "display-6 text-center mt-5 mb-5"
+            data-aos="fade-up"> No matter whether you are a beginner or an advanced learner, no matter whether you want to learn German for professional or private reasons, you will find the right German online course for you.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-evenly pt-2 pb-3">
+        <div class="col-md-3 text-center" data-aos="fade-right" data-aos-delay = "500">
+          <h1><i class="bi bi-star text-primary"></i></h1>
+          <h3>German Online Group Course</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Interactive group exercises with peer groups.</li>
+            <li class="list-group-item">Speak German in Live Sessions.</li>
+            <li class="list-group-item">Course start on fixed dates.</li>
+            <li class="list-group-item">Levels: A1-C1</li>
+            <h4><li class="list-group-item">Price: EUR 399</li></h4>
+          </ul>
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay = "700">
+          <h1><i class="bi bi-star-half text-danger"></i></h1>
+          <h3>German Individual Online</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Individual mentoring and support.</li>
+            <li class="list-group-item">Maximum flexibility in terms of timings.</li>
+            <li class="list-group-item">Course start is possible at any time.</li>
+            <li class="list-group-item">Levels: A1-C1</li>
+            <h4><li class="list-group-item">Price: EUR 695</li></h4>
+          </ul>
+        </div>
+        <div class="col-md-3 text-center"data-aos="fade-left"data-aos-delay = "900">
+          <h1><i class="bi bi-star-fill text-success"></i></h1>
+          <h3>Intensive German Online</h3>
+          <ul class="list-group">
+            <li class="list-group-item">High learning intensity through daily lessons.</li>
+            <li class="list-group-item">75 lessons in total.</li>
+            <li class="list-group-item">Learning goals are achieved quickly.</li>
+            <li class="list-group-item">Regular examination options.</li>
+            <h4><li class="list-group-item">Price: EUR 849</li></h4>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row pt-4 mb-5 justify-content-evenly">
+        <div class="col-md-5 pt-2" data-aos = "flip-left">
+          <img src = "image4.png" class = " w-100 image-fluid" alt = "sorry" class = "image-fluid">
+        </div>
+        <div class="col-md-5 text-center" data-aos = "zoom-in" data-aos-delay = "500">
+          <h2>Online Training Without A Teacher</h2>
+          <p>Learn German independently online anytime and anywhere (24/7), without a teacher, and with our proven Goethe quality.</p>
+          <ul class="list-group">
+            <li class="list-group-item">Learn German independently.</li>
+            <li class="list-group-item">Specifically practice listening and reading skills.</li>
+            <li class="list-group-item">More than 70 hours of learning material.</li>
+            <li class="list-group-item">Practice one level from A1-C1.</li>
+            <h4><li class="list-group-item">Price: EUR 239</li></h4>
+          </ul>
+         </div>
+      </div>
+      <!--Accordian-->
+      <div class="row justify-content-evenly mb-5">
+        <div class="col-md-10">
+          <h3 class = "mb-3 text-center">FAQ</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Which German online course is right for me?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>If you would like to learn German online with a Goethe teacher, our German online courses German Online group course, Deutsch Online Individual or Writing: Deutsch Online Schreiben are suitable for you.
+                    If you want to learn German online without a Goethe teacher, our online training German Online Training is for you.
+                    Our free online placement test will determine which level is the right choice for you.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Which language levels are available in our German online courses?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Different German online courses are available on levels A1, A2, B1, B2, C1 and C2. Our free online placement test will determine which level is right for you.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Do I need prior knowledge of German to take part in a German online course?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>To take part in a German online course at level A1, you do not need any prior knowledge of German. For a German online course at level A2, you need level A1 German skills. For a German online course at level B1, you need level A2 German skills. For a German online course at level B2, you need level B1 German skills. For a German online course at level C1, you need level B2 German skills. For a German online course at level C2, you need level C1 German skills.
+                    Our free online placement test will determine which level is the right choice for you.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How long does a German online course take?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>A German online course lasts between 1 and 6 months, depending on which German online course you choose to learn German with.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  What are the technical requirements for a German online course?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>To learn German with one of our German online courses, you need a PC, a laptop or a tablet with an Internet connection and the latest version of Google Chrome, Internet Explorer, Microsoft Edge, Firefox or Apple Safari, an email address and, a headset with a microphone.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  Can I continue in a classroom course after completing a German online course?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Yes, after completing a German online course, you can continue learning German in a classroom course (Intensive German or German in the Evening / Morning / at the Weekend). The right classroom course for you will be identified in our free placement test for classroom courses. Please notice that we cannot guarantee a direct transition from a German online course level to the next level in a classroom course.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact Section-->
+      <div class="row justify-content-evenly pt-2 pb-4">
+        <div class="col-md-5 mb-3" data-aos = "flip-right" data-aos-delay="300">
+          <h3 class = "mb-4">Contact Form</h3>
+          <form>
+            <div class="mb-3">
+              <label for="Name" class="form-label">Full Name</label>
+              <input type="name" class="form-control" id="Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-5 mb-3" data-aos = "zoom-out" data-aos-delay = "700">
+          <h3 class = "mb-3">Address</h3>
+          <p>Head Office Munich <br>
+            Oskar-von-Miller-Ring 18 <br>
+            80333 München <br>
+            <i class="bi bi-telephone"></i> 49 89 15921-0    
+            <i class="bi bi-envelope"></i> info@goethe.de</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.210493376057!2d11.573541465220691!3d48.14474700864127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e766df2c2d235%3A0x73ee3f4dc2642e49!2sGoethe-Institut%20Zentrale%20M%C3%BCnchen!5e0!3m2!1sen!2sin!4v1654173209976!5m2!1sen!2sin" style = "width:100%;" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+      </div>
+      <!--Footer-->
+      <div class="row justify-content-evenly bg-dark text-white">
+        <div class="col-md-3 pt-4 mb-4">
+          <h3 class ="mb-3">Goethe Institut</h3>
+          <p>The Goethe-Institut is the Federal Republic of Germany’s cultural institute, active worldwide. We promote the study of German abroad and encourage international cultural exchange.</p>
+
+        </div>
+        <div class="col-md-3 pt-4 mb-4">
+          <h3 class = mb-3>Helpful Links</h3>
+          <p>
+            <a href ="#" class = "link-light text-decoration-none">Contact</a><br>
+            <a href = "#" class = "link-light text-decoration-none">RSS</a><br>
+            <a href = "#" class = "link-light text-decoration-none">Social Media</a><br>
+            <a href = "#" class = "link-light text-decoration-none">Newsletter</a><br>
+            <a href = "#" class = "link-light text-decoration-none">My Goethe.de</a><br>
+          </p>
+
+        </div>
+        <div class="col-md-3 pt-4 mb-4">
+          <h3 class = mb-3>Further Websites</h3>
+            <a href = "#" class = "link-light text-decoration-none">Institutes worldwide</a><br>
+            <a href = "#" class = "link-light text-decoration-none">cultural magazine „Zeitgeister“</a><br>
+            <a href = "#" class = "link-light text-decoration-none">Community „Deutsch für dich“</a><br>
+            <a href = "#" class = "link-light text-decoration-none">Mein Weg nach Deutschland</a><br>
+            <a href = "#" class = "link-light text-decoration-none">Web projects worldwide</a><br>
+          </p>
+         </div>
+         </div>
+         <div class="row bg-secondary text-white text-center p-1">
+           <div class="col-12">
+             <p>© 2022 Goethe-Institut. All Rights Reserved</p>
+           </div>
+
+         </div>
+      <script src = "script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+  <!--AOS Start-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+  duration:1500, // values from 0 to 3000, with step 50ms
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+    });
+  </script>
+</html>

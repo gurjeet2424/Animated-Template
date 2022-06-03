@@ -1,0 +1,19 @@
+.navbar-nav{
+    padding-left: 40px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: black;
+    background-color:rgba(247,247, 247, 255);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.carousel-item {
+    height: 600px;
+  }
+  
